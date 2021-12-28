@@ -1,0 +1,3 @@
+ng build pagiinator
+cd dist/pagiinator
+npm pack
