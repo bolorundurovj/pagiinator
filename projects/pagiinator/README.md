@@ -4,7 +4,7 @@
 [![downloads](https://badgen.net/npm/dt/pagiinator)](https://badgen.net/npm/dt/pagiinator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Current Version](https://img.shields.io/npm/v/pagiinator?style=flat-square)](https://img.shields.io/npm/v/pagiinator?style=flat-square)
-[![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fbolorundurovj%2Fpagiinator)](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fbolorundurovj%2Fpagiinator)]
+[![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fbolorundurovj%2Fpagiinator)](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fbolorundurovj%2Fpagiinator)
 <a href="https://www.npmjs.com/package/pagiinator">
 </a>
 <a href="https://www.npmjs.com/package/pagiinator">
