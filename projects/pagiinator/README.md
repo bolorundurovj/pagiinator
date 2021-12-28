@@ -2,8 +2,10 @@
 
 [![NPM](https://nodei.co/npm/pagiinator.png?downloads=true)](https://nodei.co/npm/pagiinator/)
 [![downloads](https://badgen.net/npm/dt/pagiinator)](https://badgen.net/npm/dt/pagiinator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Current Version](https://img.shields.io/npm/v/pagiinator?style=flat-square)](https://img.shields.io/npm/v/pagiinator?style=flat-square)
+[![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fbolorundurovj%2Fpagiinator)](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fbolorundurovj%2Fpagiinator)]
 <a href="https://www.npmjs.com/package/pagiinator">
-<img src="https://img.shields.io/npm/v/pagiinator?style=flat-square" alt="npm version" />
 </a>
 <a href="https://www.npmjs.com/package/pagiinator">
 <img src="https://img.shields.io/npm/dw/pagiinator?style=flat-square" alt="npm downloads" />
@@ -12,8 +14,6 @@
 <a href="https://www.jsdelivr.com/package/npm/pagiinator">
 <img src="https://data.jsdelivr.com/v1/package/npm/pagiinator/badge" alt="jsdelivr" />
 </a>
-<img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FPawanKolhe%2Fpagiinator" alt="Hits">
-<img src="https://img.shields.io/npm/l/pagiinator?style=flat-square" alt="license" />
 
 **A highly customizable pagination component library.**
 
