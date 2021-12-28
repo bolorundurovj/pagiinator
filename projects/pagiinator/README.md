@@ -1,24 +1,56 @@
 # Pagiinator
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.0.
+[![NPM](https://nodei.co/npm/pagiinator.png?downloads=true)](https://nodei.co/npm/pagiinator/)
+[![downloads](https://badgen.net/npm/dt/pagiinator)](https://badgen.net/npm/dt/pagiinator)
+<a href="https://www.npmjs.com/package/pagiinator">
+<img src="https://img.shields.io/npm/v/pagiinator?style=flat-square" alt="npm version" />
+</a>
+<a href="https://www.npmjs.com/package/pagiinator">
+<img src="https://img.shields.io/npm/dw/pagiinator?style=flat-square" alt="npm downloads" />
+</a>
+<img src="https://img.shields.io/bundlephobia/min/pagiinator?style=flat-square" alt="size" />
+<a href="https://www.jsdelivr.com/package/npm/pagiinator">
+<img src="https://data.jsdelivr.com/v1/package/npm/pagiinator/badge" alt="jsdelivr" />
+</a>
+<img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FPawanKolhe%2Fpagiinator" alt="Hits">
+<img src="https://img.shields.io/npm/l/pagiinator?style=flat-square" alt="license" />
 
-## Code scaffolding
+**A highly customizable pagination component library.**
 
-Run `ng generate component component-name --project pagiinator` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project pagiinator`.
-> Note: Don't forget to add `--project pagiinator` or else it will be added to the default project in your `angular.json` file. 
+By installing this component and writing only a little bit of CSS you can obtain this:
 
-## Build
+<img src="./src/assets/1.png" alt="Pagination demo 1" />
 
-Run `ng build pagiinator` to build the project. The build artifacts will be stored in the `dist/` directory.
+or
 
-## Publishing
+<img src="./src/assets/2.png" alt="Pagination demo 2" />
 
-After building your library with `ng build pagiinator`, go to the dist folder `cd dist/pagiinator` and run `npm publish`.
+## Installation
 
-## Running unit tests
+Install `pagiinator` with [npm](https://www.npmjs.com/):
 
-Run `ng test pagiinator` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm install pagiinator --save
+```
 
-## Further help
+In your App Module add:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```javascript
+import { PagiinatorModule } from "pagiinator";
+```
+
+## Demo
+
+<img src="./src/assets/demo.gif" alt="Pagination demo" />
+
+## Props
+
+| Name         | Type       | Description                                                                                |
+| ------------ | ---------- | ------------------------------------------------------------------------------------------ |
+| `items`      | `Number`   | **Required.** Array of data to be paginated                                                |
+| `maxPages`   | `Number`   | **Required.** The range of pages displayed.                                                |
+| `pageSize`   | `Number`   | **Required.** The number of items to display per page.                                     |
+| `textColor`  | `String`   | Color of the text.                                                                         |
+| `bgColor`    | `String`   | Background color for active page.                                                          |
+| `position`   | `Node`     | Position on page ('left', 'center', 'right').                                              |
+| `changePage` | `Function` | The method to call when a page is clicked. Exposes the current page object as an argument. |
